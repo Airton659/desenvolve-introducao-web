@@ -6,14 +6,23 @@
     --cor-4: #010E26;
     --cor-5:#05C7F2;
 }
- * {
+ /* * {
     background-color: var(--cor-4);
     color: var(--cor-2);
- }
+ } */
+
+ html {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
 
 body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-2);
+    color: var(--cor-4);
 }
 
 p {
@@ -39,10 +48,58 @@ abbr {
     font-variant-caps: all-small-caps;
 }
 
+.intro {
+    height: 550px;
+}
+
+header {
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    padding: 1em;
+}
+
+header h2 {
+    display: flex;
+    align-items: center;
+}
 .summary {
     text-align: right;
 }
 
 .main p{
     line-height: 1.5;
+}
+
+.sidebar h3 {
+    text-align: center;
+}
+
+.sidebar li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+#design-archives {
+    display: none;
+}
+
+footer {
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    margin-top: 4%; 
+    margin-bottom: 4%;
+    padding: 0.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-1);
+    padding: 0.5em;
+    border: 2px solid var(--cor-5);
 }
