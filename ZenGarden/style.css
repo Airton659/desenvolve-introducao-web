@@ -25,6 +25,14 @@ body {
     color: var(--cor-4);
 }
 
+/* .page-wrapper {
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+} */
+
+
 p {
     text-indent: 1em;
 }
@@ -74,6 +82,25 @@ header h2 {
 
 .main p{
     line-height: 1.5;
+}
+
+.page-wrapper {
+    position: static;
+}
+
+.explanation {
+    width: 60%; 
+    margin-right: 35%;
+    border-right: 1px solid #1f295c; 
+    padding-right: 2%;
+}
+
+.design-selection {
+        position: absolute; 
+        top: 560px;
+        left: 62%; 
+        padding: 0 2%; 
+
 }
 
 .sidebar h3 {
