@@ -187,15 +187,15 @@ a:link {
   }
 
   @media (max-width: 767px) {
-       .menu {
+       .design-selection {
       position: static;
     }
   
-    .container {
+    .main {
       border-left: none;
     }
   
-    .container {
+    .main {
       flex-direction: column;
     }
 
