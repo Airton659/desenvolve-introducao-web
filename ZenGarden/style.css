@@ -185,4 +185,25 @@ a:link {
 .design-selection li:last-child {
     border-bottom: 1px solid var(--cor-3); 
   }
+
+  @media (max-width: 767px) {
+       .menu {
+      position: static;
+    }
   
+    .container {
+      border-left: none;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+
+    header {
+      height: auto;
+    }
+  
+    p {
+      margin-top: 0;
+    }
+  }
