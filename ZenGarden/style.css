@@ -93,6 +93,7 @@ header h2 {
     margin-right: 35%;
     border-right: 1px solid #1f295c; 
     padding-right: 2%;
+    margin-bottom: 10%;
 }
 
 .design-selection {
@@ -121,12 +122,36 @@ footer {
     color: var(--cor-2);
     margin-top: 4%; 
     margin-bottom: 4%;
-    padding: 0.5em;
+    padding: 0.5em;    
+    border: 2px solid var(--cor-5);
 }
 
 footer a {
     text-decoration: none;
     color: var(--cor-1);
     padding: 0.5em;
-    border: 2px solid var(--cor-5);
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+    flex-wrap: wrap; 
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .participation {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .benefits,
+.participation {
+  border-top: 1px solid var(--cor-3);
+  border-bottom: 1px solid var(--cor-3);
+  margin-bottom: 20px;
 }
